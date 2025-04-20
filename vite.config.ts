@@ -4,14 +4,16 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/birthday/',
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
     emptyOutDir: true,
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name].[ext]',
+        assetFileNames: 'assets/[name][extname]',
+        entryFileNames: 'assets/[name].js'
     }
   }
  }
-});
+})
