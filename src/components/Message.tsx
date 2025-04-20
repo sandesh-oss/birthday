@@ -14,14 +14,10 @@ const Message = () => {
           Dear Madam Ji,
         </h1>
         <p className="text-xl text-gray-700 leading-relaxed mb-6">
-          To the most beautiful girl on this planet,
-          here's wishing you a very Happy Birthday 
-          from the guy who is crazy about you.
-          He will be there for you all the time, 
-          and will keep praying that you have long, long life
-          I want my life to be full of yours.
-          So, let me be the greatest gift of your birthday.
-          Love you so much, babe.
+          Even though we have met recently & i guess we know nothing about eachother but this
+          is my kindness to show you how much i value people.This is a way 
+          to show that our friendship just started and i hope we will be making some great memories together.
+          I'm starting this new year with a new friend as you and i hope our friendship will last forever.
         </p>
         <p className="text-lg text-pink-600 font-semibold">
           and on your special day, i wish you the happiest birthday
